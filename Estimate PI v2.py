@@ -1,11 +1,12 @@
 #%% Import Cellpi
 import random
+import scipy
 import numpy as np
 import matplotlib.pyplot as plt
 
 #%% Esimate pi sim class
 class estimate_pi:
-    
+    # ... changed by ee rei
     def __init__(self, num_points=10): 
         self.num_points = num_points
             
